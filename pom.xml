@@ -13,7 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <sonar.skip>true</sonar.skip>
+        <sonar.skip>false</sonar.skip>
         <sonar.analysis.mode>publish</sonar.analysis.mode>
         <sonar.sources>src/main/</sonar.sources>
         <sonar.test>src/test/</sonar.test>
