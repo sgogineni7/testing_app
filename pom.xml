@@ -14,6 +14,8 @@
 			<timestamptest>1579245290364</timestamptest>
 		<module.dependency>pw-commons[6.6.198];pw-gui[6.6.13];pw-clientstartup[6.6.0]</module.dependency>
 		<sonar.skip>false</sonar.skip>
+		<junit.skip>true</junit.skip>
+		<jacoco.skip>true</jacoco.skip>
 		<sonar.projectName>test-6.6-pw-configdescriptors</sonar.projectName>
 		<sonar.projectKey>test-6.6-pw-configdescriptors</sonar.projectKey>
 		<configdescriptor.exclusions>RolesConfigDescriptor,DestinationConfigDescriptor</configdescriptor.exclusions>
